@@ -11,7 +11,7 @@ composer require hisman/option
 
 ### Provider
 
-Add the ServiceProvider to `config/app.php` file:
+If you're using Laravel < 5.5, you'll need to add the service provider to `config/app.php` file:
 
 ```php
 'providers' => [
