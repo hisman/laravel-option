@@ -1,10 +1,10 @@
 <?php
 
-namespace Hisman\Option;
+namespace Hisman\Option\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
-class OptionFacade extends Facade
+class Option extends Facade
 {
     /**
      * Get the registered name of the component.

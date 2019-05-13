@@ -2,7 +2,6 @@
 
 namespace Hisman\Option\Test;
 
-use Hisman\Option\OptionFacade;
 use Hisman\Option\OptionServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Option;
@@ -28,7 +27,7 @@ class OptionTest extends OrchestraTestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Option' => OptionFacade::class,
+            'Option' => \Hisman\Option\Facade\Option::class,
         ];
     }
 

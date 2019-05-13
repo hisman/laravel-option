@@ -31,7 +31,7 @@ Add the alias to `config/app.php` file:
 'aliases' => [
     ...
 
-    'Option' => Hisman\Option\OptionFacade::class,
+    'Option' => Hisman\Option\Facade\Option::class,
 
     ...
 ]
